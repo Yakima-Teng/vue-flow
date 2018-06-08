@@ -26,6 +26,7 @@ declare type CompilerOptions = {
   // for ssr optimization compiler
   scopeId?: string;
 };
+
 declare class URL {
   constructor(urlStr: string): URL;
   toString(): string;
